@@ -12,7 +12,6 @@ import pilar1 from './images/pilar1.jpeg';
 import colegioActur from './images/colegioActur.jpeg';
 import ocioActur from './images/ocioActur.jpeg';
 import canguro from './images/canguro.jpg';
-import { set } from 'mongoose';
 
 function Inicio() {
     const comoFuncionaRef = useRef(null);
