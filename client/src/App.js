@@ -1,9 +1,8 @@
 import React, { useRef, useState, useEffect } from 'react';
-import './css/inicio.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import '@fortawesome/fontawesome-free/css/all.min.css';
-import '@fortawesome/fontawesome-free/css/all.css';
-
+// import '@fortawesome/fontawesome-free/css/all.css';
+import './css/inicio.css';
 // Importar componentes
 
 
@@ -122,7 +121,6 @@ function Inicio() {
     }
     
     return (
-        // <!-- CABECERA -->
         <div className='fondoPantalla'>
 
 
