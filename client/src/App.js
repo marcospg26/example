@@ -1,7 +1,8 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './css/inicio.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 // Importar componentes
 
