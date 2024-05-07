@@ -1,0 +1,47 @@
+.resenya {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.container {
+    background-color: #D4D4D4; 
+}
+
+body {
+    font-family: 'Courgette', cursive;
+    background: #E2E2E2;
+}
+
+.image-container {
+    display: inline-block; 
+    border: 2px solid black; 
+    padding: 10px; 
+}
+
+.zoom-checkbox {
+    display: none;
+}
+
+.zoomable-img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.zoom-checkbox:checked + .zoomable-img {
+    transform: scale(1.3); /* Aumenta el tamaño en un 20% */
+}
+
+.btn-test {
+    background-color: #D90000;
+    border-color: #D90000;
+    color: #fff; /* Color de las letras */
+    padding: 8px 84px;
+    font-size: 40px;
+    border-radius: 15px;
+}
+
+.btn-danger:hover {
+    background-color: #8B0000; /* Rojo oscuro cuando pasas el ratón sobre el botón */
+    border-color: #8B0000;
+    color: #fff; /* Color de las letras al pasar el mouse */
+}

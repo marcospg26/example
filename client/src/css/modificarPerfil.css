@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 7px;
+    z-index: 100;
+}
+
+.footer .row {
+    margin-bottom: 10px;
+}
+
+.footer .social-icons {
+    text-align: left;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+

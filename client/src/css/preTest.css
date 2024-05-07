@@ -1,0 +1,36 @@
+/* Aquí puedes añadir estilos adicionales si lo deseas */
+.description {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.progress-icon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.progress-icon span {
+    display: block;
+    margin-top: 10px;
+}
+
+.progress-icon::before {
+    font-family: 'Font Awesome 5 Free'; /* Cambiamos el nombre de la fuente */
+    font-weight: 900; /* Añadimos el peso de la fuente */
+    font-size: 40px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #ccc; /* Fondo gris */
+    color: white; /* Texto blanco */
+    content: attr(data-icon); /* Cambiamos la forma de añadir el contenido */
+}
+
+#deporte::before {
+    content: "\f1e3"; /* Icono de deporte */
+}
+
+#ocio::before {
+    content: "\f007"; /* Icono de ocio */
+}

@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 7px;
+    z-index: 100;
+}
+
+.footer .row {
+    margin-bottom: 10px;
+}
+
+.footer .social-icons {
+    text-align: left;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+

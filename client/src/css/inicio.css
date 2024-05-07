@@ -1,0 +1,80 @@
+.fondoPantalla {
+    font-family: 'Courgette', cursive;
+    background: #E2E2E2;
+}
+
+.linea {
+    border-top: 1px solid black; 
+    width: 90%;
+}
+
+.rectangulo {
+    border: 2px solid black;
+    padding: 30px; 
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #D90000;
+    border-color: #D90000;
+}
+
+.btn-primary:hover {
+    background-color: #D90000;
+    border-color: #D90000;
+    transform: scale(1.1);
+}
+
+.rectanguloTestimonio {
+    width: 80%;
+    border: 2px;
+    background-color: #D90000; 
+    padding: 10px; 
+    margin: 0 auto; 
+    margin-bottom: 30px;
+}
+
+.rectanguloTestimonio p {
+    color: white; 
+}
+
+.rectanguloTestimonio img {
+    width: 150px; 
+    height: 150px; 
+
+}
+
+.rectangulo img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.btn-test {
+    background-color: #D90000;
+    border-color: #D90000;
+    color: #fff; /* Color de las letras */
+    padding: 8px 84px;
+    font-size: 40px;
+    border-radius: 15px;
+}
+
+.btn-danger:hover {
+    background-color: #8B0000; /* Rojo oscuro cuando pasas el ratón sobre el botón */
+    border-color: #8B0000;
+    color: #fff; /* Color de las letras al pasar el mouse */
+}
+
+
+.rectanguloTestimonio {
+    border: 2px solid #D90000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%; /* Ajusta el ancho según sea necesario */
+    margin-left: auto; /* Centra el testimonio horizontalmente */
+    margin-right: auto; /* Centra el testimonio horizontalmente */
+}
+
+.testimonio-text {
+    font-size: 20px; /* Tamaño de fuente personalizado */
+}

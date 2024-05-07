@@ -1,0 +1,63 @@
+.container {
+    background-color: #D4D4D4; 
+}
+
+body {
+    font-family: 'Courgette', cursive;
+    background: #E2E2E2;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background-color: #D90000; /* Color de fondo deseado para el botón */
+    border: none;
+}
+
+.profile-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #D90000; /* Color de fondo deseado para el botón */
+}
+
+.profile-button:active {
+    background-color: #D90000; /* Color de fondo deseado para el botón cuando está activo */
+}
+
+
+.back:hover {
+    cursor: pointer
+}
+
+
+.labels {
+    font-size: 14px; 
+}
+
+.form-control {
+    font-size: 16px; 
+    height: 40px; 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* Ajusta el tamaño de las etiquetas para dispositivos pequeños */
+@media (max-width: 576px) {
+    .labels {
+        font-size: 12px;
+    }
+}
+
+/* Ajusta el tamaño de los campos de entrada para dispositivos pequeños */
+@media (max-width: 576px) {
+    .form-control {
+        font-size: 14px;
+        height: 36px;
+    }
+}
